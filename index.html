@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<link href="styling.css" rel="stylesheet">
+<body>
+    <div class="container bg-light">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <span class="fs-4">Akmalinnuha - Mobile dev path</span>
+      </div>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Portofolio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Certification</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About me</a></li>
+      </ul>
+    </header>
+  </div>
+  <div class="container mt-3">
+    <p>Halaman ini berisi beberapa projek aplikasi android yang sudah Saya buat. Semua aplikasinya adalah aplikasi native menggunakan bahasa kotlin.</p>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="btn" data-bs-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="multiCollapseExample1">
+            Aplikasi submisi untuk course Dicoding "Membuat Aplikasi Android untuk Pemula"
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card-body">
+            <p>
+              Aplikasi ini bernama Multiversus Rosters berisi list berupa roster dari game <a href="https://multiversus.com/en-gb" target="_blank">Multiversus</a> (pre open-beta) beserta
+              deskripsinya. Multiversus Rosters mempunyai fitur love yaitu pengguna bisa menandai roster yang mereka sukai dengan menekan <i>heart icon</i> 
+              pada halaman deskripsi roster.
+            </p>
+            <div class="img-mvs">
+              <img src="img/SS_Multiversus-Rosters1.jpg" alt="SS" height="750px" style="margin-right: 10pt; margin-bottom: 10pt;">
+              <img src="img/SS_Multiversus-Rosters2.jpg" alt="SS" height="750px" style="margin-bottom: 10pt;">
+            </div>
+            <p>Source code : <a href="https://github.com/Akmalinnuha/MVS-Rosters.git/" target="_blank">github.com/Akmalinnuha/MVS-Rosters</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="multiCollapseExample2">
+          Aplikasi projek akhir mata kuliah Pemrograman Sistem Interaktif
+        </a>
+        </div>
+        <div id="collapseTwo" class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="card-body">
+            <p>
+              Aplikasi ini adalah semacam e-commerce dengan tema thrift shop bernama thrifter yang mana ia menjual barang-barang seperti thrift shop pada umumnya.
+              Aplikasi ini memiliki 4 fungsional yaitu search, add to cart, delete from cart, dan pengisian form informasi pengiriman. 
+              Di dalamnya sudah menerapkan materi mata kuliah pemrograman sistem interaktif dan ada beberapa yang di luar itu kami juga terapkan dalam aplikasi ini. 
+              Materi yang diterapkan antara lain yaitu, Activity, Intent, event-handler, RecyclerView, Fragment, dan Reactive Programming (Observables), 
+              ViewBinding, notification, dan aplikasi ini menerapkan pola arsitektur MVVM. Bagian yang Saya buat adalah halaman profil dan 2 fungsional yaitu 
+              pengisian form informasi pengiriman (yang ada di halaman profil dan cart) dan fungsi add to cart.
+            </p>
+            <div id="arion1">
+              <img src="img/image1.jpg" alt="gambar1" class="float-start" width="50%">
+              <img src="img/image4.jpg" alt="gambar4" class="float-end" width="50%">
+            </div>
+            <div id="arion2">
+              <img src="img/image8.jpg" alt="gambar8">
+              <img src="img/image6.jpg" alt="gambar6" width="90%">
+            </div>
+            <div id="arion3">
+              <img src="img/image2.jpg" alt="gambar2" class="float-start" width="50%" style="margin-top: 16pt;">
+              <img src="img/image3.jpg" alt="gambar3" class="float-end" width="50%" style="margin-top: 16pt;">
+            </div>
+            <div id="arion4">
+              <img src="img/image5.jpg" alt="gambar5" style="margin-bottom: 20pt;">
+            </div>
+            <p>Source code : <a href="https://github.com/Evan-aja/Thrifter-PSI/" target="_blank">github.com/Evan-aja/Thrifter-PSI</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="multiCollapseExample3">
+            Aplikasi kalkulator sederhana
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse multi-collapse" id="multiCollapseExample3">
+          <div class="card-body">
+            <p>Hanya kalkulator sederhana yang dapat melakukan operasi kali, bagi, tambah, dan kurang</p>
+            <div id="img-calc">
+              <img src="img/SS_Calculator1.jpg" alt="calculator" height="750px" style="margin-right: 10pt;margin-bottom: 10pt;">
+              <img src="img/SS_Calculator2.jpg" alt="calculator" height="750px" style="margin-bottom: 10pt;">
+            </div>
+            <p>Source code : <a href="https://github.com/Akmalinnuha/simple-calc-kotlin.git/" target="_blank">github.com/Akmalinnuha/simple-calc-kotlin</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="multiCollapseExample4">
+            Aplikasi penerapan SQLite
+          </a>
+        </div>
+        <div id="collapseFour" class="collapse multi-collapse" id="multiCollapseExample4">
+          <div class="card-body">
+            <p>Aplikasi ini merupakan aplikasi CRUD sederhana yang memiliki input nama dan email. 
+            Saya membuat aplikasi ini dengan tujuan untuk mengimplementasikan pemahaman SQLite yang baru Saya pelajari saat liburan 
+            karena mata kuliah Pemrograman Sistem Interaktif yang Saya ikuti di semester 5 tidak mencakup materi sampai database.</p>
+            <div id="img-sqlite">
+              <img src="img/SS_SQLite-app1.jpg" alt="app sqlite" height="750px" style="margin-right: 10pt; margin-bottom: 10pt;">
+              <img src="img/SS_SQLite-app2.jpg" alt="app sqlite" height="750px" style="margin-bottom: 10pt;">
+            </div>
+            <p>Source code : <a href="https://github.com/Akmalinnuha/sqlite-demo-app.git/" target="_blank">github.com/Akmalinnuha/sqlite-demo-app</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
